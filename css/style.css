@@ -1,97 +1,155 @@
-/* RESET */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* STOP RESET */
-
-
-/* COMMON */
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f6f8f9;
-}
-
-
-/* STOP COMMON */
-
-
-/* HEADER */
-
-header {
-    background-color: white;
-    height: 80px;
-}
-
-header .logo {
-    vertical-align: middle;
-    padding: 10px 5px 10px 20px;
-}
-
-header .logo-text {
-    vertical-align: middle;
-    font-size: 40px;
-    font-weight: 900;
-}
-
-
-/* STOP HEADER */
-
-
-/* MAIN */
-
-main {
-    background-color: white;
-    width: 70%;
-    margin: 30px auto;
-    border-radius: 10px 10px 0 0;
-}
-
-
-/* LINK */
-
-.container-link {
-    border-bottom: 2px solid #f6f8f9;
-    height: 50px;
-}
-
-.text-link {
-    text-align: center;
-    margin-top: 12px;
-    margin-left: 20px;
-    display: inline-block;
-    text-decoration: none;
-    padding: 5px;
-    background-color: #14aaf5;
-    color: white;
-    border-radius: 5px;
-    font-size: 10px;
-}
-
-#id-section {
-    background-color: white;
-    color: #cfd5d9;
-    border: 1px solid #cfd5d9;
-    margin-left: 5px;
-}
-
-
-/* STOP LINK */
-
-
-/* LIST */
-
-main .list {
-    margin: 20px 12px;
-}
-
-
-/* STOP LIST */
-
-
-/* STOP MAIN */
+    /* RESET */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* STOP RESET */
+    /* COMMON */
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f6f8f9;
+    }
+    /* STOP COMMON */
+    /* HEADER */
+    
+    header {
+        background-color: white;
+        height: 80px;
+    }
+    
+    header .logo {
+        vertical-align: middle;
+        padding: 10px 5px 10px 20px;
+    }
+    
+    header .logo-text {
+        vertical-align: middle;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    /* STOP HEADER */
+    /* MAIN */
+    
+    main {
+        background-color: white;
+        width: 70%;
+        margin: 30px auto;
+        border-radius: 10px;
+    }
+    /* LINK */
+    
+    .container-link {
+        border-bottom: 2px solid #f6f8f9;
+        height: 50px;
+    }
+    
+    .text-link {
+        text-align: center;
+        margin-top: 12px;
+        margin-left: 45px;
+        display: inline-block;
+        text-decoration: none;
+        padding: 5px;
+        background-color: #14aaf5;
+        color: white;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    
+    #id-section {
+        background-color: white;
+        color: #cfd5d9;
+        border: 1px solid #cfd5d9;
+        margin-left: 5px;
+    }
+    /* STOP LINK */
+    /* LIST */
+    
+    main .list {
+        margin: 20px;
+    }
+    
+    main ul {
+        list-style-type: none;
+    }
+    
+    .entity-small-triangle {
+        font-size: 30px;
+        vertical-align: middle;
+    }
+    
+    main li {
+        margin: 10px 20px;
+    }
+    
+    ul li span {
+        margin-bottom: 5px;
+    }
+    
+    li h3 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    li .entity-check {
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #65d5c2;
+        color: #65d5c2;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 15px;
+        margin-left: 2px;
+    }
+    
+    li .entity-cross {
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        border: 2px solid red;
+        color: red;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 15px;
+        margin-left: 2px;
+    }
+    
+    .li-type-editorial {
+        padding: 5px;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 10px;
+        vertical-align: middle;
+        background-color: #14aaf5;
+        color: white;
+    }
+    
+    #q1-goals {
+        background-color: #ab5de6;
+    }
+    
+    #recruiting {
+        background-color: #2cc6ab;
+    }
+    
+    #mobile {
+        background-color: #ff9b00;
+    }
+    
+    #website {
+        background-color: #ec4a9d;
+    }
+    
+    #sales {
+        background-color: #a3d116;
+    }
+    /* STOP LIST */
+    /* STOP MAIN */
