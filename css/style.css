@@ -9,13 +9,14 @@
 
 /* STOP RESET */
 
-/* BODY */
+/* COMMON */
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f6f8f9;
 }
 
-/* STOP BODY */
+/* STOP COMMON */
 
 /* HEADER */
 
@@ -26,13 +27,12 @@ header{
 
 header .logo{
     vertical-align: middle;
-    padding: 10px 5px;
+    padding: 10px 5px 10px 20px;
 }
 
 header .logo-text{
     vertical-align: middle;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
 }
 
@@ -42,7 +42,46 @@ header .logo-text{
 
 main{
     background-color: white;
-    height: 30%;
+    width: 70%;
+    margin: 30px auto ;
+    border-radius: 10px 10px 0 0 ;
 }
+
+
+/* LINK */
+
+.container-link{
+  /*   background-color: red; */
+    border-bottom: 2px solid #f6f8f9;
+    height: 50px;   
+}
+
+.text-link{
+
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    background-color:#14aaf5;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+
+}
+
+#id-section{
+background-color: white;
+color: #cfd5d9;
+border: 1px solid #cfd5d9;
+margin-left: 5px;
+}
+
+/* STOP LINK */
+
+/* LIST */
+
+/* STOP LIST */
 
 /* STOP MAIN */
