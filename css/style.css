@@ -1,3 +1,48 @@
-body{
-    background-color: blue;
+
+/* RESET */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
 }
+
+/* STOP RESET */
+
+/* BODY */
+
+body{
+    background-color: #f6f8f9;
+}
+
+/* STOP BODY */
+
+/* HEADER */
+
+header{
+    background-color: white;
+    height: 80px;
+}
+
+header .logo{
+    vertical-align: middle;
+    padding: 10px 5px;
+}
+
+header .logo-text{
+    vertical-align: middle;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+/* STOP HEADER */
+
+/* MAIN */
+
+main{
+    background-color: white;
+    height: 30%;
+}
+
+/* STOP MAIN */
