@@ -17,7 +17,9 @@
     
     header {
         background-color: white;
-        height: 80px;
+        /* height: 80px;
+            non è corretto usare altezza perchè se aggiungiamo altro contenuto 
+            potremmo avere il testo che va a sovrapporsi al testo sotto! */
     }
     
     header .logo {
